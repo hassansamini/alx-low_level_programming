@@ -1,7 +1,11 @@
 #!/bin/bash
+
 #include <stdio.h>
-int main(void) 
+/*
+*Program prints a text using puts function
+*/
+int main(void)
 {
-    puts("Programming is like building a multilingual puzzle,\n");
+    puts("\"Programming is like building a multilingual puzzle,\n");
     return 0;
 }
