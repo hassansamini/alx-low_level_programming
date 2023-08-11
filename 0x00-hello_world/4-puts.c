@@ -1,4 +1,3 @@
-#!/bin/bash
 #include <stdio.h>
 /*
 *Program prints a text using puts function
