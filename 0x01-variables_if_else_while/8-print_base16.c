@@ -6,22 +6,26 @@
  * Write a program that prints all the numbers of base 16 in lowercase, followed by a new line.
  * Return: Always 0 (Success)
  */
+#include <stdio.h>
+
 int main(void)
 {
-    char digit = '0';
+    char digit;
 
-    while (digit <= '9')
+    for (digit = '0'; digit <= '9'; digit++)
     {
-    	putchar(digit);
-	digit++;
+        putchar(digit);
     }
 
-    digit = 'a';
-
-    while (digit <= 'f')
+    for (digit = 'a'; digit <= 'f'; digit++)
     {
-	putchar(digit);
-	digit++;
+        putchar(digit);
     }
 
     putchar('\n');
+
+    return 0;
+}
+
+
+
