@@ -18,13 +18,13 @@ int main(void)
 	n++;
 	}
 
-	n='A';
+	n = 'A';
 
 	while (n <= 'Z')
-        {
-		putchar(n);
+	{
+	putchar(n);
 	n++;
-        }
+	}
 
 	putchar('\n');
 	return (0);
