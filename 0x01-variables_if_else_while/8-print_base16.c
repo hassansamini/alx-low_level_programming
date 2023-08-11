@@ -3,29 +3,26 @@
 #include <time.h>
 /**
  * main - Print negative or positive
- * Write a program that prints all the numbers of base 16 in lowercase, followed by a new line.
+ * Write a program that prints all the numbers of base 16 in lowercase..
  * Return: Always 0 (Success)
  */
 #include <stdio.h>
 
 int main(void)
 {
-    char digit;
-
-    for (digit = '0'; digit <= '9'; digit++)
-    {
+	char digit;
+	
+	for (digit = '0'; digit <= '9'; digit++)
+	{
         putchar(digit);
-    }
-
-    for (digit = 'a'; digit <= 'f'; digit++)
-    {
+	}
+	
+	for (digit = 'a'; digit <= 'f'; digit++)
+	{
         putchar(digit);
-    }
+	}
 
-    putchar('\n');
+       	putchar('\n');
 
-    return 0;
+	return (0);
 }
-
-
-
