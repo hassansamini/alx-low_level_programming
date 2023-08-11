@@ -10,13 +10,14 @@ int main(void)
 {
 	char n;
 
-	n='A';
+	n = 'a';
 
-	while (n <= 'Z')
+	while (n <= 'a')
 	{
-	putchar(n-32);
+	putchar(n);
 	n++;
 	}
+
 	putchar('\n');
 	return (0);
 }
