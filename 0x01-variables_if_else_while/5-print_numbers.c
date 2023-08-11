@@ -7,15 +7,13 @@
  * Return: Always 0 (Success)
  */
 int main(void)
-{
-	int n;
-	int i=0;
-	n = 9;
+{	int i = 0;
+	int n = 9;
 
 	while (i <= n)
 	{
 	printf("%d\n",n);
-	n++;
+	i++;
 	}
 
 	return (0);
