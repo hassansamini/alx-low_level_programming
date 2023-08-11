@@ -7,15 +7,21 @@
  * Return: Always 0 (Success)
  */
 int main(void)
-{	char i = '0';
+{
+    char digit = '0';
 
-	while (i <= 'f')
-	{
-		if(i <= '9' ||(i >= 'a' && i <= 'f'))
-		{
-		putchar(i);
-		i++;
-		}
-	putchar('\n');
-	return (0);
-}
+    while (digit <= '9')
+    {
+    	putchar(digit)
+	digit++;
+    }
+
+    digit = 'a';
+
+    while (digit <= 'f')
+    {
+	putchar(digit);
+	digit++;
+    }
+
+    putchar('\n');
