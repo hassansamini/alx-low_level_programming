@@ -5,8 +5,7 @@
  * main - Print negative or positive
  * The output of the program should be
  * The string Last digit of, followed by n, followed by the string is
- * if the last digit of n is 0: the string and is 0
- * if the last digit of n is less than 6 and not 0: the string and is less than 6 and not 0
+ * if the last digit of n is 0: the string and is 0 to be added
  * Return: Always 0 (Success)
  */
 int main(void)
