@@ -2,32 +2,37 @@
 
 /**
  * jack_bauer - Prints every minute of a 24-hour day
- *
- * Return: void
  */
 void jack_bauer(void)
 {
-	int a, b, c, d;
+	int hour, minute;
 
-	for (a = 0; a <= 2; a++)
+	for (hour = 0; hour < 24; hour++)
 	{
-		for (b = 0; b <= 9; b++)
+		for (minute = 0; minute < 60; minute++)
 		{
-			if ((a <= 1 && b <= 9) || (a <= 2 && b < 3))
+			if (hour < 10)
 			{
-				for (c = 0; c <= 5; c++)
-				{
-					for (d = 0; d <= 9; d++)
-					{
-						_putchar(a + '0');
-						_putchar(b + '0');
-						_putchar(':');
-						_putchar(c + '0');
-						_putchar(d + '0');
-						_putchar('\n');
-					}
-				}
+				_putchar('0');
+				_putchar('0' + hour);
 			}
+			else
+			{
+				_putchar('0' + hour / 10);
+				_putchar('0' + hour % 10);
+			}
+			_putchar(':');
+			if (minute < 10)
+			{
+				_putchar('0');
+				_putchar('0' + minute);
+			}
+			else
+			{
+				_putchar('0' + minute / 10);
+				_putchar('0' + minute % 10);
+			}
+			_putchar('\n');
 		}
 	}
 }
