@@ -8,10 +8,11 @@
  */
 int _islower(int c)
 {
-        if (c >= 97 && c <= 122)
-        {
-                return (1);
-        }
-        return (0);
+	/* ASCII values for lowercase letters (a to z): 97 to 122 */
+	if (c >= 97 && c <= 122)
+	{
+		return (1);
+	}
+	return (0);
 }
 
