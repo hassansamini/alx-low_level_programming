@@ -8,8 +8,10 @@
  */
 int _isalpha(int c)
 {
-	/* ASCII values for lowercase letters (a to z): 97 to 122
-	 * ASCII values for uppercase letters (A to Z): 65 to 90 */
+	/*
+	 * ASCII values for lowercase letters (a to z): 97 to 122
+	 * ASCII values for uppercase letters (A to Z): 65 to 90
+	 */
 	if ((c >= 97 && c <= 122) || (c >= 65 && c <= 90))
 	{
 		return (1);
