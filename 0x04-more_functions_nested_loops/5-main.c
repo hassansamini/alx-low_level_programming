@@ -1,12 +1,13 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * main - Entry point of the program
  *
- * Return: Always 0.
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-    more_numbers();
-    return (0);
+	more_numbers();
+	return (0);
 }
+
