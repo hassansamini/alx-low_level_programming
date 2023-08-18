@@ -1,48 +1,35 @@
-#include "main.h"
 #include <stdio.h>
 
 /**
- * fizz_buzz - Implements the FizzBuzz problem for numbers 1 to 100
+ * main - Entry point for the FizzBuzz program
  *
- * Return: void
+ * Description: Prints numbers from 1 to 100 with Fizz, Buzz, or FizzBuzz
+ *              based on divisibility.
+ *
+ * Return: Always 0 (Success)
  */
-void fizz_buzz(void)
+int main(void)
 {
 	int i;
 
-	for (i = 1; i <= 100; i++)
+	i = 1;
+	while (i <= 100)
 	{
 		if (i % 3 == 0 && i % 5 == 0)
-		{
 			printf("FizzBuzz");
-		}
 		else if (i % 3 == 0)
-		{
 			printf("Fizz");
-		}
 		else if (i % 5 == 0)
-		{
 			printf("Buzz");
-		}
 		else
-		{
 			printf("%d", i);
-		}
 
-		if (i < 100)
-		{
+		if (i != 100)
 			printf(" ");
-		}
-		else
-		{
-			printf("\n");
-		}
+		i++;
 	}
-}
+	printf("\n");
 
-int main(void)
-{
-	fizz_buzz();
 	return (0);
 }
 
