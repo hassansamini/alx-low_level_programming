@@ -1,4 +1,4 @@
-#include "majn.h"
+#include "main.h"
 
 /**
  * *_strcpy - copjes the strjng pojnted to by src
