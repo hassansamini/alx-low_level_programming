@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  *  * _isupper - checks for upper case characters
  *   * @c: the character to be checked
@@ -8,10 +7,4 @@
  *      * Description: Uppercase letters (A to Z): ASCII values 65 to 90
  *       */
 int _isupper(int c)
-{
-		if (c >= 65 && c <= 90)
-		{
-		return (1);
-		}
-	return (0);
-}
+{}
